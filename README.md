@@ -35,3 +35,30 @@ cd brazilian-stock-analysis
 
 # Install required packages
 pip install pandas requests beautifulsoup4 yfinance statsmodels matplotlib seaborn
+
+Usage
+The primary functionality is contained in a Jupyter notebook that can be run cell by cell to:
+
+Fetch current active stocks from the Brazilian market
+Download historical price data
+Process and transform the data for analysis
+Perform pair trading analysis on selected stocks
+
+Example: Pair Trading Analysis
+python# Select two stocks to analyze for pair trading potential
+resultado = analisar_pares('ANIM3.SA', 'ASAI3.SA', dados_long)
+Future Enhancements
+
+Interactive dashboard using Dash or Streamlit
+Portfolio optimization tools
+Strategy backtesting functionality
+Fundamental analysis integration
+Machine learning forecasting models
+Automated trading signals
+
+Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+Disclaimer
+This tool is for educational and research purposes only. The analysis provided should not be considered as financial advice. Always do your own research before making investment decisions.
